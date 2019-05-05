@@ -9,6 +9,7 @@ import Routes from "./routes"
 Vue.config.productionTip = false
 
 Vue.use(VueResource)
+Vue.use(VueRouter)
 
 //自定义指令
 Vue.directive("rainbow", {
