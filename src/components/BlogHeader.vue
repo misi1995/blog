@@ -12,8 +12,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><router-link to="/" exact>博客</router-link></li>
-            <li><router-link to="/add" exact>写博客</router-link></li>
+            <li><router-link to="/blog/dist/" exact>博客</router-link></li>
+            <li><router-link to="/blog/dist/add" exact>写博客</router-link></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

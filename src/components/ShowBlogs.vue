@@ -6,7 +6,7 @@
 
     <div class="panel panel-default" v-for="blog in filteredBlogs">
         <div class="panel-heading">
-            <router-link v-bind:to="'/blog/'+blog.id">
+            <router-link v-bind:to="'/blog/dist/blog/'+blog.id">
                 <h2 class="panel-title">{{blog.title | to-uppercase}}</h2>
             </router-link>
             <!-- <h3 class="panel-title">Panel title</h3> -->

@@ -14,7 +14,7 @@
                 </li>
             <ul></ul>
             <button @click="deleteBlog" class="btn btn-danger">删除博客</button>
-            <router-link :to="'/edit/'+id" class="btn btn-default">编辑博客</router-link>
+            <router-link :to="'/blog/dist/edit/'+id" class="btn btn-default">编辑博客</router-link>
         </div>
     </div>
 </template>
